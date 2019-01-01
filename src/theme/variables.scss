@@ -86,3 +86,14 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+
+@font-face {
+  font-family: "EffraMedium";
+  src: url('../assets/fonts/EffraMedium-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Effra";
+  src: url('../assets/fonts/EffraMedium-Regular.ttf');
+}
