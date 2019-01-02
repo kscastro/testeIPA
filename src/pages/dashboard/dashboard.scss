@@ -1,0 +1,238 @@
+ion-app.ios [padding] {
+  padding: 0px;
+}
+
+ion-app.ios [padding] .scroll-content {
+  padding: 0px;
+}
+
+
+
+.menu-dashboard {
+  height: 50px;
+}
+
+.title-dashboard {
+  width: 100%;
+  height: 20px;
+  font-family: EffraMedium;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-dashboard {
+  height: 60px;
+  box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.title-header-dashboard {
+  width: 118px;
+  height: 15px;
+  font-family: EffraMedium;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #414042;
+  float: right;
+}
+
+.icon-header-dashboard {
+  float: right;
+  top: 12px;
+  margin-top: 20px;
+}
+
+
+.card-init {
+  width: 92%;
+  height: 161px;
+  -webkit-box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.1);
+  margin: 15px;
+}
+
+.card-header {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.text-card-header {
+  font-family: EffraMedium;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card-button-init {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ffce00;
+  background-color: transparent !important;
+  margin-top: 32px;
+}
+
+.text-button-card {
+  width: 149px;
+  height: 16px;
+  font-family: EffraMedium;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffce00;
+}
+
+.card-andamento {
+  width: 100%;
+  height: 134px;
+  box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 0px;
+}
+
+.header-card-andamento {
+  width: 100%;
+  height: 30px;
+  border-left: 2px solid #0077c0;
+  padding: 5px;
+  margin: 0;
+}
+
+.text-header-andamento {
+  font-family: EffraMedium;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0077c0;
+}
+
+.card-andamento-conteudo {
+  width: 100%;
+  height: 75px;
+  margin-top: 30px;
+  margin-left: 12px;
+  padding: 0px;
+}
+
+#p-title {
+  width: 95%;
+  height: 15px;
+  font-family: EffraMedium;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #414042;
+  margin: 0;
+  
+}
+
+.p-date {
+  width: 70px;
+  height: 11px;
+  font-family: Effra;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #414042;
+  margin: 0;
+  float: right;
+}
+
+#p-create {
+  width: 95%;
+  height: 15px;
+  font-family: Effra;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0077c0;
+  margin-top: 4px
+}
+
+.p-time {
+  width: 35px;
+  height: 9px;
+  font-family: Effra;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0077c0 !important;
+  float: right;
+}
+
+.card-historico {
+    width: 100%;
+    height: 30%;
+    box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.1);
+    margin-left: 0px;
+  }
+  
+  .header-card-historico {
+    width: 100%;
+    height: 30px;
+    border-left: 2px solid #0077c0;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .text-header-historico {
+    font-family: EffraMedium;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0077c0;
+  }
+  
+  .card-historico-conteudo {
+    width: 100%;
+    height: 75px;
+    margin-top: 30px;
+    margin-left: 12px;
+    padding: 0px;
+  }
+
+

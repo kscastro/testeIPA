@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { DashboardPage } from '../dashboard/dashboard'
 
 
 @Component({
@@ -9,6 +10,10 @@ import { NavController } from 'ionic-angular';
 export class LoginNewPasswordPage {
 
   constructor(public navCtrl: NavController) {
+  }
+
+  openDashboardPage(){
+    this.navCtrl.push(DashboardPage, {}, {animate: true} );    
   }
 
 }

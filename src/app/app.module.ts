@@ -6,19 +6,21 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 
-import { LoginPage } from '../pages/login/login';
-import { LoginDetailPage } from '../pages/login-detail/login-detail';
-import { LoginCreatePage } from '../pages/login-create/login-create';
-import { LoginNewPasswordPage } from '../pages/login-new-password/login-new-password';
+// import { LoginPage } from '../pages/login/login';
+// import { LoginDetailPage } from '../pages/login-detail/login-detail';
+// import { LoginCreatePage } from '../pages/login-create/login-create';
+// import { LoginNewPasswordPage } from '../pages/login-new-password/login-new-password';
+import { DashboardPage } from '../pages/dashboard/dashboard'
 
 
 @NgModule({
   declarations: [
     MyApp,
-    LoginPage,
-    LoginDetailPage,
-    LoginCreatePage,
-    LoginNewPasswordPage
+    // LoginPage,
+    // LoginDetailPage,
+    // LoginCreatePage,
+    // LoginNewPasswordPage,
+    DashboardPage
     
   ],
   imports: [
@@ -28,10 +30,11 @@ import { LoginNewPasswordPage } from '../pages/login-new-password/login-new-pass
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    LoginPage,
-    LoginDetailPage,
-    LoginCreatePage,
-    LoginNewPasswordPage
+    // LoginPage,
+    // LoginDetailPage,
+    // LoginCreatePage,
+    // LoginNewPasswordPage,
+    DashboardPage
   ],
   providers: [
     StatusBar,
